@@ -12,4 +12,4 @@ To get started:
 6. Head to localhost:3000 in your browser
 7. Click the register link and create an account
 8. Start creating articles :)
-
+9. Run 'bundle exec rspec spec' to run the test suite
