@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-lg-12">
         <h1><%= @article.title %></h1>
-        <p><%= @article.content %></p>
+        <p><%= coderay(@article.content).html_safe %></p>
         <span><%= link_to 'Edit', edit_article_path(@article), class: 'action' %> | <%= link_to 'Back', articles_path, class: 'action' %></span>
       </div>
     </div>

@@ -32,9 +32,17 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+# Magical authentication for Rails 3 & 4
 gem 'sorcery'
+
+# A modern, simple and very fast Mysql library for Ruby
 gem 'mysql2'
+
+# Authorization Gem for Ruby on Rails.
 gem 'cancan'
+
+# Fast and easy syntax highlighting for selected languages
+gem 'coderay'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
