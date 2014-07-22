@@ -1,1 +1,3 @@
-# Update basic Wiki app with Sorcery for authentication
+# The Floow Wiki
+
+Updated basic Wiki app with Sorcery for authentication
