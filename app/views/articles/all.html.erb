@@ -1,0 +1,13 @@
+<div id="page-content-wrapper">
+  <div class="container-fluid">
+    <h1><strong style="text-decoration:underline">All Articles</strong></h1>
+    <% @articles.each do |article| %>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3><%= article.title %></h3>
+        <p class="light-text"><%= article.content %></p>
+      </div>
+    </div>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html id="authentication">
+  <head>
+    <title>The Floow Wiki</title>
+      <%= stylesheet_link_tag    "application" %>
+      <%= javascript_include_tag "application" %>
+      <%= csrf_meta_tags %>
+  </head>
+  <body>
+  
+  <div>
+    <p id="notice"><%= flash[:notice] %></p>
+    <p id="alert"><%= flash[:alert] %></p>
+  </div>
+
+  <%= yield %>
+
+  </body>
+</html>

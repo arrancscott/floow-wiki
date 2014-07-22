@@ -1,0 +1,16 @@
+<div id="page-content-wrapper">
+  <div class="container-fluid">
+    <% @articles.each do |article| %>
+    <div class="row">
+      <div class="col-lg-12">
+        <h1><%= article.title %></h1>
+        <p><%= article.content %></p>
+        <span><%= link_to 'Show', article, class: 'action' %></span> |
+        <span><%= link_to 'Edit', edit_article_path(article), class: 'action' %></span> |
+        <span><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' }, class: 'action' %></span>
+      </div>
+    </div>
+    <% end %>
+  </div>
+  <%= link_to 'New Article', new_article_path, class: 'new' %>  
+</div>
