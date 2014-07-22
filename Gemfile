@@ -38,8 +38,13 @@ group :test do
 end
 
 group :development, :test do
+	# RSpec for Rails-3+
 	gem 'rspec-rails', '~> 3.0.0'
+
+	# Factory Girl ♥ Rails
 	gem 'factory_girl_rails'
+
+	# A PhantomJS driver for Capybara
 	gem 'poltergeist'
 end
 
