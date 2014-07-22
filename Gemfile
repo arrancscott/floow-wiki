@@ -32,6 +32,16 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :test do
+  # bundle exec rake doc:rails generates the API under doc/api.
+  gem 'capybara'
+end
+
+group :development, :test do
+	gem 'rspec-rails', '~> 3.0.0'
+	gem 'factory_girl_rails'
+end
+
 # Magical authentication for Rails 3 & 4
 gem 'sorcery'
 
