@@ -1,10 +1,10 @@
 # The Floow Wiki
 
-Updated basic Wiki app with Sorcery for authentication.
+Basic Wiki app with Sorcery for authentication.
 
 To get started:
 
-1. Clone the repo (git clone https://github.com/arrancscott/floow-wiki-2)
+1. Clone the repo (git clone https://github.com/arrancscott/floow-wiki)
 2. cd into the project directory
 3. Create local database called 'floow'
 4. Run migrations (bundle exec rake db:migrate)
